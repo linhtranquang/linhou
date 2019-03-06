@@ -27,6 +27,7 @@ namespace test_app
             {
                 int a = int.Parse(label1.Text);
                 int c = a;
+                int d = c;
             }
         }
     }
