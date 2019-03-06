@@ -23,7 +23,11 @@ namespace test_app
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (!string.IsNullOrEmpty(label1.Text))
+
+            if (!string.IsNullOrEmpty(label1.Text) && !string.IsNullOrWhiteSpace(label1.Text)
+
             {
                 int a = int.Parse(label1.Text);
                 int c = a;
